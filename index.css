@@ -1,0 +1,104 @@
+     .custom-bg{
+        background-color: green;
+        color: white;
+    }
+    .nav-link {
+        color: white;
+        font-size: large;
+        margin-right: 10px;
+        padding: 5px;
+    }
+    .nav-link:hover{
+        color: azure;
+        text-decoration: underline;
+        font-size:x-large;
+    }
+    
+img{
+    height:40px;
+    width:40px;
+    margin:auto;
+    }
+    span img{
+		width:45px;
+		height:45px;
+		}
+        .searchbar{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 30px;
+          
+        }
+        .input {
+            width:85%;
+            padding: 15px;
+        }
+        .box{
+            position: relative;
+            padding: 10px;
+            margin-left: 10%;
+            width:70%;
+            text-align: center;
+        
+        
+        }
+        .fa{
+             position: absolute;
+             right: 15%;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+        footer{
+            background-color: green;
+            color: white;
+            width: 100%;
+            
+        }
+        section{
+            color: white;
+        }
+        .box-img{
+            border: 2px solid rgb(0, 128, 0);
+            display: inline-flex;
+            width: 220px;
+            padding-top:2px;
+            margin: 30px;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .box-img:hover{
+            background-color: darkgreen;
+            color: white;
+        }
+        .products{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-around;
+            flex-wrap: wrap;
+            padding: 15px;
+        }
+        .box1{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-around;
+            flex-wrap: wrap;
+            padding: 5px;
+           
+            
+        }
+        
+        
+        }    
+       .img-offer{
+        
+        transition: transform 0.2s;
+        
+
+       }
+       .img-offer:hover{
+        transform: scale(1.1);
+        border: 2px solid white;
+       }
